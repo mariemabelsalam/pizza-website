@@ -1,0 +1,57 @@
+:root {
+    --main-color: rgb(255 164 0);
+}
+
+.navbar .navbar-brand {
+    color: var(--main-color);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--main-color);
+}
+
+h1{
+    color: var(--main-color);
+}
+
+.carousel-item .carousel-caption {
+    bottom: 30%
+}
+
+h1,h2 ,h3 {
+    font-family: cursive;
+    font-weight: 400;
+}
+
+.about h2 , .gallary h2, .contact h2 ,h3 {
+    color: var(--main-color);
+}
+
+.heading h2 {
+    position: relative;
+}
+.heading h2::after {
+    content: " ";
+    width: 6%;
+    height: 3%;
+    background-color: var(--main-color);
+    position: absolute;
+    left: 50%;
+    bottom: -30%;
+    transform: translateX(-50%);
+}
+.gallary .card {
+    transition: all 1s;
+}
+.gallary .card:hover {
+    transform: scale(1.1);
+}
+.contact a {
+    color: var(--main-color);
+}
+footer i {
+    transition: all 1s;
+}
+footer i:hover {
+    color: var(--main-color);
+}
